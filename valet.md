@@ -149,6 +149,15 @@ To stop sharing your site, hit `Control + C` to cancel the process.
 
 > {note} `valet share` does not currently support sharing sites that have been secured using the `valet secure` command.
 
+> {tip} To overwrite the default proxy location simply use `valet share -region eu`.
+
+Option  | Region
+------------- | -------------
+`us` | United States (Dallas) (**default**)
+`eu` | Europe (Frankfurt)
+`ap` |  Asia/Pacific (Singapore)
+`au` | Australia (Sydney)
+
 <a name="custom-valet-drivers"></a>
 ## Custom Valet Drivers
 
